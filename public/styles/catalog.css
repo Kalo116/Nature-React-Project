@@ -1,0 +1,75 @@
+#catalog-page {
+    background-color: transparent;
+    box-shadow: 0px 0px 40px 0px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 55px;
+    height: auto;
+    width: auto;
+}
+#catalog-h1 {
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: "Agency FB";
+}
+
+.poster {
+    background-color: #04AA6D;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 30px;
+    background-position: right 35% bottom 45%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    float: left;
+    height: auto;
+}
+
+.image-wrap {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.poster>h3 {
+    font-family: "Agency FB";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.5s ease-out;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.details-btn {
+    text-decoration:none;
+    position: relative;
+    top: -26px;
+    border-style:ridge  ;
+    background-color: #006b44;
+    font-size: 1.4rem;
+    padding-top: 20px;
+    margin-top: 10px;
+    color: white;
+    padding: 0.9em 1.4em;
+}
+.details-btn:hover{
+    background-color: rgb(141, 141, 65);
+    color: black;
+    border-style:ridge ;
+}
+
+.data-buttons {
+    font-size: 1.4rem;
+    padding-top: 20px;
+    text-align: center;
+}
