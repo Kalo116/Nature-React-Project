@@ -1,19 +1,13 @@
-body,
-html {
-    height: 100%;
-
-}
 
 html {
     background: url('images/nature-of-waterfalls-2ygv7ssy2k0lxlzu.jpg') no-repeat center center fixed;
-
     background-size: cover;
 }
 
 .topnav {
     background-color: #333;
-    overflow: hidden;
     position: relative;
+    overflow: hidden;
     top: -9px;
 }
 
